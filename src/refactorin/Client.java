@@ -68,7 +68,7 @@ public class Client {
             }
             */
         	//Se ha sustituido el codigo por esta función
-        	double quantitat = quantitatPerLloguer(lloguer);
+        	double quantitat = lloguer.quantitat();
             // afegeix lloguers freqüents
             bonificacions ++;
 
@@ -93,6 +93,7 @@ public class Client {
         return resultat;
     }
     //-------------clase 2
+    /*
     public double quantitatPerLloguer(Lloguer lloguer) {
     	double quantitat = 0;
         switch (lloguer.getVehicle().getCategoria()) {
@@ -115,6 +116,7 @@ public class Client {
         return quantitat;
 
     }
+    */
     
     
     
